@@ -23,7 +23,7 @@ namespace SunshineGameFinder
         public string? Undo { get; set; }
 
         [JsonPropertyName("elevated")]
-        public string? Elevated { get; set; }
+        public bool? Elevated { get; set; }
     }
 
     public static class PathFormatter
